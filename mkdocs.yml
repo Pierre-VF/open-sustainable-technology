@@ -8,6 +8,7 @@ edit_uri: ''
 nav:
   - Projects: index.md
   - Spreadsheet: spreadsheet.md
+  - Presentations: presentations.md
   - Education: education.md
   - Contribute: contributing.md
   - Blog:
@@ -30,7 +31,7 @@ nav:
   - Podcast: "https://ossforclimate.sustainoss.org/"
   - ClimateTriage: "https://climatetriage.com/"
   - OpenClimate.fund: "https://openclimate.fund/"
-  - Presentations: "presentations.md"
+
 
 
 theme:
