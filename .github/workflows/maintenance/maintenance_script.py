@@ -277,7 +277,7 @@ CACHE.close()
 # Creating PRs for issues detected
 
 common_kwargs = dict(
-    repository=GITHUB_CLIENT.get_user("protontypes").get_repo(
+    repository=GITHUB_CLIENT.get_user("Pierre-VF").get_repo(
         "open-sustainable-technology"
     ),
     base_branch="main",

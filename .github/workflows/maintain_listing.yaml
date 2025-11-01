@@ -6,6 +6,9 @@
 name: Maintaining links
 
 on: 
+  push:
+    branches:
+      - pvfs-fork-main
   workflow_dispatch:
     logLevel:
       description: 'Log level'
