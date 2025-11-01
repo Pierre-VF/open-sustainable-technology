@@ -213,6 +213,7 @@ def _cached_session_get(s: requests.Session, url: str) -> tuple[int | None, str 
 
 
 def _ignore_url(url) -> bool:
+    return False
     ignore = CACHE.get(f"ignore:{url}")
     if ignore:
         return True
